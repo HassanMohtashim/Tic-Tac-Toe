@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
         if(winner.equals("X") || winner.equals("O")){
             winnerMessage.setText(winner + " wins!");
         } else {
-            winnerMessage.setText(winner + "Play Again");
+            winnerMessage.setText(winner + " Play Again");
         }
 
         // Create and show the AlertDialog
