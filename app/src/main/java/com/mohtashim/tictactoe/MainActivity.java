@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Random rand = new Random();
         flag = rand.nextInt(2);
 
-        // Initialize buttons and texts
+        // Initialize buttons and text
         initialization();
 
         // Update the UI for the starting player
